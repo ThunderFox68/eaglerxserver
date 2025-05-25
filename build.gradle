@@ -27,6 +27,10 @@ subprojects {
 			name = "eagler-local"
 			url = localLibsFolder
 		}
+		maven {
+			name = "lax1dude"
+			url = uri("https://repo.lax1dude.net/repository/releases/")
+		}
 	}
 
 	group = providers.gradleProperty("eaglerxserver.group").get()
