@@ -6,4 +6,5 @@ plugins {
 dependencies {
 	compileOnly(libs.guava)
 	compileOnly(libs.bundles.netty.all)
+	compileOnly "net.lax1dude.eaglercraft.backend:api-bukkit:1.0.0"
 }
